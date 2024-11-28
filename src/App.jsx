@@ -1,23 +1,29 @@
 import React from 'react';
-import SongList from './SongList';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import SongList from './pages/SongList';
+import Home from './pages/Home';
+import ConcertList from './pages/ConcertList';
+import ConcertDetails from './pages/ConcertDetails';
 import './styles/Header.css';
 import logo from './assets/prorezy-logo.jpg'
 
-const App = () => {
+const App = () => {    
     return (
-        <div>
-            <header style={{ textAlign: 'center', margin: '20px 0', padding: '10px', fontSize: 'calc(16px + 2vw)' }}>
-                <img
-                    src={logo}
-                    alt="Band Logo"
-                    className="logo"
-                />
-                <h1 className="band-name">Prorezy songlist</h1>
+        <Router>
+            <header className='header'>
+                <img src={logo} alt="Band Logo" className="logo" />
+                <h1>Prorezy</h1>
             </header>
-            <main>
-                <SongList />
-            </main>
-        </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/songs" element={<SongList />} />
+                <Route path="/concerts" element={<ConcertList />} />
+                <Route path="/concerts/:date" element={<ConcertDetails />} />
+            </Routes>
+            <footer className="footer">
+                <p>Nikuloid © 2024</p>
+            </footer>
+        </Router>
     )
 }
 

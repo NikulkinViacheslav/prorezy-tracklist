@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .song-list {
+      padding: 10px; 
+    }
+  
+    table {
+      font-size: 0.9rem; 
+    }
+
+    button {
+        width: 100%
+    }
+}
