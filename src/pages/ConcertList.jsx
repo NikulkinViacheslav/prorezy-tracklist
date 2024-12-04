@@ -8,23 +8,24 @@ const ConcertList = () => {
 
     return (
         <div className="song-list">
-            <h2>List of concerts</h2>
-            <table>
+            <h2>Concert track lists</h2>
+            <table className="concert-table">
                 <thead>
                     <tr>
                         <th>Date</th>
                         <th>Venue</th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     {concertList.map((concert, index) => (
-                        <tr key={index}>
+                        <tr 
+                            key={index} 
+                            onClick={() => navigate(`/concerts/${concert.date}`)} 
+                            style={{ cursor: 'pointer' }}
+                            className="concert-row"
+                        >
                             <td>{concert.date}</td>
-                            <td>{concert.venue}</td>
-                            <td>
-                                <Link to={`/concerts/${concert.date}`}>Open</Link>
-                            </td>
+                            <td>{concert.venue}</td>                            
                         </tr>
                     ))}
                 </tbody>

@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
   
-.back-button {
+.back-button, .home-button {
     padding: 10px 20px;
     font-size: 1.2rem;
     background-color: #333;
@@ -23,7 +23,7 @@ body {
     margin-top: 20px;
 }
   
-.back-button:hover {
+.back-button:hover, .home-button:hover {
     background-color: #555;
 }
 
@@ -50,7 +50,7 @@ td {
 }
   
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #e6e6e6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,4 +60,24 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin: 0;
     text-align: center;
+}
+
+.concert-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.concert-table th,
+.concert-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.concert-row {
+    transition: background-color 0.2s ease;
+}
+
+.concert-row:hover {
+    background-color: #cce5ff;
 }

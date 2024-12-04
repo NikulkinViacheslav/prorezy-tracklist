@@ -77,27 +77,23 @@
           { "title": "Spin reactor", "tempo": "120" },
           { "title": "Musique", "tempo": "95" },
           { "title": "Call of nature", "tempo": "120" },
-          { "title": "Тетка Мария", "tempo": "97" },
-          { "title": "Dance", "tempo": "110" },
+          { "title": "Тетка Мария", "tempo": "97" },          
           { "title": "Magic leg style", "tempo": "120" },
-          { "title": "Por favor", "tempo": "115" },
-          { "title": "My woman", "tempo": "130" },
           { "title": "In love", "tempo": "105" },
-          { "title": "El corazon", "tempo": "115" },
-          { "title": "Where is love (slow)", "tempo": "110" }
+          { "title": "My woman", "tempo": "130" },
+          { "title": "Papindela", "tempo": "100" }
         ],
         "part2": [
           { "title": "Game over", "tempo": "120" },
-          { "title": "Love you too", "tempo": "115" },
-          { "title": "Manchester United", "tempo": "95" },
-          { "title": "Papindela", "tempo": "100" },
           { "title": "Gek", "tempo": "130" },
+          { "title": "Dance", "tempo": "110" },
+          { "title": "Por favor", "tempo": "115" },
           { "title": "Люся", "tempo": "135" },
-          { "title": "Ray of sun", "tempo": "100" },
-          { "title": "Over again", "tempo": "120" },
+          { "title": "El corazon", "tempo": "115" },
+          { "title": "Manchester United", "tempo": "95" },
           { "title": "Обери мене", "tempo": "85" },
-          { "title": "Show business", "tempo": "100" },
-          { "title": "Warning", "tempo": "120" }
+          { "title": "Over again", "tempo": "120" },
+          { "title": "Where is love (slow)", "tempo": "110" }
         ]
       }
     }
