@@ -97,6 +97,42 @@
           { "title": "Where is love (slow)", "tempo": "110" }
         ]
       }
+    },
+    {
+      "date": "31.01.2025",
+      "venue": "Poplavok Music Hall",
+      "songs": {
+        "part1": [
+          { "title": "Солнце", "tempo": "105" },
+          { "title": "Spin reactor", "tempo": "120" },
+          { "title": "Musique", "tempo": "95" },
+          { "title": "Call of nature", "tempo": "120" },
+          { "title": "Тетка Мария", "tempo": "97" },          
+          { "title": "Magic leg style", "tempo": "120" },
+          { "title": "In love", "tempo": "105" },
+          { "title": "My woman", "tempo": "130" },
+          { "title": "El corazon", "tempo": "115" },
+          { "title": "Ray of sun", "tempo": "100" },
+          { "title": "Gek", "tempo": "130" },
+          { "title": "Spring time (bossa nova)", "tempo": "90" }
+        ],
+        "part2": [
+          { "title": "ДНК Саддама Хусейна", "tempo": "110" },
+          { "title": "Game over", "tempo": "120" },
+          { "title": "Dance", "tempo": "110" },
+          { "title": "Por favor", "tempo": "115" },
+          { "title": "Люся", "tempo": "135" },
+          { "title": "Papindela", "tempo": "100" },
+          { "title": "Manchester United", "tempo": "95" },
+          { "title": "Обери мене", "tempo": "85" },
+          { "title": "Полум'я", "tempo": "105" },
+          { "title": "Нема що втрачати", "tempo": "120" },
+          { "title": "Show business", "tempo": "100" },
+          { "title": "Warning", "tempo": "120" },
+          { "title": "Over again", "tempo": "120" },
+          { "title": "Where is love (slow)", "tempo": "110" }
+        ]
+      }
     }
   ]
 }
